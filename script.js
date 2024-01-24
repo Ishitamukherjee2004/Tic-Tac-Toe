@@ -1,6 +1,4 @@
 let Boxes = document.querySelectorAll(".Box");
-let cross = document.querySelector(".cross");
-let circle = document.querySelector(".circle");
 let btn = document.querySelector(".btn");
 let box$ = document.getElementById(`box$`);
 let cnt =0;

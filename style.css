@@ -1,0 +1,46 @@
+body{
+    background-color: rgb(154, 153, 153);
+}
+.square{
+    border:5px solid black;
+    height:40%;
+    width:450px;
+
+    border-radius: 5px;
+    position:relative;
+    left:21em;
+    top: 0em;
+    box-shadow: 5px 5px 8px 8px rgb(78, 77, 77);
+}
+.Box{
+    height: 150px;
+    width:150px;
+    border: 2px solid black;
+    border-radius: 2px;
+    background-color: rgb(112, 183, 183);
+    cursor: pointer;
+   }
+.box{
+    display: flex;
+    flex-direction: row;
+}
+.score{
+    font-size: 34px;
+    position: relative;
+    left: 550px;
+    top:120px;
+}
+.btn{
+    position: relative;
+    left:522px;
+    top: 50px;
+    width:85px;
+    height: 40px;
+    cursor: pointer;
+}
+h1{
+    position: relative;
+    left:450px;
+    top: 2px;
+    
+}

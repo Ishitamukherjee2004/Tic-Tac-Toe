@@ -23,19 +23,19 @@ Boxes.forEach(function(Box) {
             alert(box1.innerText+" Won");
         }
         else if(box3.innerHTML==box5.innerHTML && box5.innerHTML==box7.innerHTML && box3.innerHTML!="" && box5.innerHTML!="" && box7.innerHTML!=""){
-            alert(box1.innerText+" Won");
+            alert(box3.innerText+" Won");
         }
         else if(box4.innerHTML==box5.innerHTML && box5.innerHTML==box6.innerHTML && box4.innerHTML!="" && box5.innerHTML!="" && box6.innerHTML!=""){
-            alert(box1.innerText+" Won");
+            alert(box4.innerText+" Won");
         }
         else if(box7.innerHTML==box8.innerHTML && box8.innerHTML==box9.innerHTML && box7.innerHTML!="" && box8.innerHTML!="" && box9.innerHTML!=""){
-            alert(box1.innerText+" Won");
+            alert(box7.innerText+" Won");
         }
         else if(box2.innerHTML==box5.innerHTML && box5.innerHTML==box8.innerHTML && box2.innerHTML!="" && box5.innerHTML!="" && box8.innerHTML!=""){
-            alert(box1.innerText+" Won");
+            alert(box2.innerText+" Won");
         }
         else if(box3.innerHTML==box6.innerHTML && box6.innerHTML==box9.innerHTML && box3.innerHTML!="" && box6.innerHTML!="" && box9.innerHTML!=""){
-            alert(box1.innerText+" Won");
+            alert(box3.innerText+" Won");
         }
         else if(box1.innerHTML!="" && box2.innerHTML!="" && box3.innerHTML!="" && box4.innerHTML!="" && box5.innerHTML!="" && box6.innerHTML!="" && box7.innerHTML!="" && box8.innerHTML!="" &&  box9.innerHTML!=""){
             alert("Tie");

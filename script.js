@@ -6,12 +6,16 @@ let cnt =0;
 Boxes.forEach(function(Box) {
     Box.addEventListener("click", function() {
         cnt++;
-        if(cnt==1 || cnt%2!=0){
+        if(cnt==1 || cnt%2!=0 && Box.innerHTML==""){
             Box.innerHTML= "<span style='font-size:8rem'>X</span>";
         }
-        else{
+        else if(cnt%2==0 && Box.innerHTML==""){
             Box.innerHTML= "<span style='font-size:8rem'>O</span>";
             
+        }
+        else if(Box.innerHTML!=""){
+            alert("You can not overwrite on the filled box");
+            cnt--;
         }
         if(box1.innerHTML==box2.innerHTML && box2.innerHTML==box3.innerHTML && box1.innerHTML!="" && box2.innerHTML!="" && box3.innerHTML!=""){
             alert(box1.innerText+" Won");
